@@ -21,6 +21,11 @@ body {
   color: #007bff;
 }
 
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
 /* Hero Section */
 .hero {
   background-color: #e9ecef;
@@ -40,19 +45,18 @@ body {
   border: 5px solid #fff;
 }
 
-/* About and News Section */
-.about-news h2 {
+/* About, Projects, and Publications Section */
+h1, h2 {
   color: #343a40;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
-.about-news p, .about-news li {
+p, ul li {
   color: #6c757d;
   font-size: 1.1rem;
 }
 
-.about-news ul li {
+ul li {
   margin-bottom: 10px;
 }
 

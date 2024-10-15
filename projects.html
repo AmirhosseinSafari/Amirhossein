@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects & Lab Experiences</title>
+    <title>Projects - Amirhossein Safari</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
   <div class="container">
     <a class="navbar-brand" href="index.html">Amirhossein Safari</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,27 +19,36 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">About Me</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Projects Section -->
-<section class="projects py-5">
+<!-- Page Content -->
+<section class="projects bg-light text-center py-5 mt-5">
   <div class="container">
-    <h2>Projects</h2>
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">IoT Security Project</h5>
-            <p class="card-text">Exploring the security vulnerabilities in IoT devices and enhancing their communication protocols.</p>
-          </div>
-        </div>
+    <h1 class="display-4">My Projects</h1>
+    <p class="lead">Explore the projects I've worked on during my studies and research.</p>
+
+    <!-- Projects Section -->
+    <div class="row mt-4">
+      <div class="col-lg-6">
+        <h2>Course Projects</h2>
+        <ul class="list-unstyled">
+          <li><strong>Deep Learning ECG Analysis</strong>: Analyzing cardiovascular signals using AI techniques.</li>
+          <li><strong>IoT Security</strong>: Studying vulnerabilities in IoT authentication systems.</li>
+        </ul>
       </div>
-      <!-- More projects here -->
+
+      <div class="col-lg-6">
+        <h2>Lab Experiences</h2>
+        <ul class="list-unstyled">
+          <li><strong>AI in Genomic Sequencing</strong>: Applying machine learning for gene analysis.</li>
+          <li><strong>Signal Processing</strong>: Investigating sensor signals from biological systems.</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -48,6 +57,7 @@
 <footer class="bg-dark text-white text-center py-4">
   <div class="container">
     <p>© 2024 Amirhossein Safari</p>
+    <p><a href="mailto:amirhossein@example.com" class="text-white">Contact me</a></p>
   </div>
 </footer>
 
