@@ -10,7 +10,7 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
   <div class="container">
     <a class="navbar-brand" href="#">Amirhossein Safari</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,11 +26,19 @@
   </div>
 </nav>
 
-<!-- Hero Section -->
-<section class="hero bg-light text-center py-5">
+<!-- Hero Section with Image -->
+<section class="hero bg-light text-center py-5 mt-5">
   <div class="container">
-    <h1 class="display-4">Welcome to My Academic Website</h1>
-    <p class="lead">I am Amirhossein Safari, a master's student passionate about AI, machine learning, and cardiovascular signal processing.</p>
+    <div class="row align-items-center">
+      <div class="col-lg-6 text-lg-start">
+        <h1 class="display-4">Amirhossein Safari</h1>
+        <p class="lead">Master's student at IASBS, passionate about AI, machine learning, and cardiovascular signal processing.</p>
+        <a href="projects.html" class="btn btn-primary btn-lg mt-3">View My Projects</a>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <img src="images/amirhossein.jpg" alt="Amirhossein Safari" class="img-fluid rounded-circle shadow-lg" style="width: 300px; height: 300px; object-fit: cover;">
+      </div>
+    </div>
   </div>
 </section>
 
@@ -41,14 +49,15 @@
       <!-- About Me -->
       <div class="col-lg-6">
         <h2>About Me</h2>
-        <p>Amirhossein Safari, a master's student at IASBS, working on AI and deep learning. Focused on cardiovascular signals and IoT security.</p>
+        <p>I am Amirhossein Safari, a master's student at IASBS with a deep interest in AI, deep learning, cardiovascular signals, and IoT security. My aim is to contribute to society through technology.</p>
       </div>
       <!-- News -->
       <div class="col-lg-6">
         <h2>News</h2>
-        <ul>
-          <li>September 2024: Published paper on deep learning and ECG signal analysis.</li>
-          <li>August 2024: Completed a project on IoT security.</li>
+        <ul class="list-unstyled">
+          <li><strong>September 2024</strong>: Published paper on deep learning and ECG signal analysis.</li>
+          <li><strong>August 2024</strong>: Completed a project on IoT security and its vulnerabilities.</li>
+          <!-- More news items -->
         </ul>
       </div>
     </div>
