@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .hero {
+    background-color: #e9ecef;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .about-news h2 {
+    color: #343a40;
+  }
+  
+  .about-news p {
+    color: #6c757d;
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #fff;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
