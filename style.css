@@ -38,11 +38,7 @@ body {
 }
 
 .hero p {
-  color: #6c757d;
-}
-
-.hero img {
-  border: 5px solid #fff;
+  color: #383c40;
 }
 
 /* About, Projects, and Publications Section */
@@ -54,6 +50,7 @@ h1, h2 {
 p, ul li {
   color: #6c757d;
   font-size: 1.1rem;
+  text-align: justify;
 }
 
 ul li {
@@ -68,6 +65,7 @@ footer {
 footer p, footer a {
   color: #fff;
   font-size: 1rem;
+  text-align: center;
 }
 
 footer a:hover {
@@ -94,4 +92,30 @@ footer a:hover {
 
 .rounded-circle {
   border-radius: 50%;
+}
+
+.iasbs {
+  color: #a60000
+}
+
+.badge-box {
+  border-bottom: 2px solid #a60000;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.paper_name {
+  font-style: italic;
+}
+
+.no_decoration {
+  text-decoration: none;
+}
+
+/* Hero Image Styling with Shadow */
+.hero img {
+  border: 5px solid #fff !important;
+  border-radius: 50% !important;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3) !important;
+  transition: box-shadow 0.3s ease !important; 
 }
