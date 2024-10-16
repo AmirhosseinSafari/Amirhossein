@@ -197,3 +197,7 @@ footer a:hover {
 .scroll-to-top.show {
   display: block;
 }
+
+.badge {
+  margin-top: 8px;
+}
