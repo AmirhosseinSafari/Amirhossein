@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Amirhossein Safari</title>
+    <title>Amirhossein Safari - Projects</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
@@ -19,39 +19,217 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">About Me</a></li>
-        <li class="nav-item"><a class="nav-link active" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="publications.html">Publications & Achievements</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Page Content -->
-<section class="projects bg-light text-center py-5 mt-5">
-  <div class="container">
+<!-- <section class="projects bg-light text-center py-5 mt-5"> -->
+  <div class="container text-center py-5 mt-5">
     <h1 class="display-4">My Projects</h1>
-    <p class="lead">Explore the projects I've worked on during my studies and research.</p>
+    <p class="text-center">
+      Explore the projects I've worked on during my studies and research.
+      <br>
+      Check out the section you're interested in by clicking the <span style="color: #0d6efd">buttons</span> below.
+    </p>
+  </div>
 
-    <!-- Projects Section -->
-    <div class="row mt-4">
-      <div class="col-lg-6">
-        <h2>Course Projects</h2>
-        <ul class="list-unstyled">
-          <li><strong>Deep Learning ECG Analysis</strong>: Analyzing cardiovascular signals using AI techniques.</li>
-          <li><strong>IoT Security</strong>: Studying vulnerabilities in IoT authentication systems.</li>
-        </ul>
-      </div>
-
-      <div class="col-lg-6">
-        <h2>Lab Experiences</h2>
-        <ul class="list-unstyled">
-          <li><strong>AI in Genomic Sequencing</strong>: Applying machine learning for gene analysis.</li>
-          <li><strong>Signal Processing</strong>: Investigating sensor signals from biological systems.</li>
-        </ul>
-      </div>
+<!-- Section Navigation Buttons -->
+<div class="container">
+    <div class="btn-group">
+        <button class="btn btn-primary" onclick="scrollToSection('course-projects')">Course Projects</button>
+        <button class="btn btn-primary" onclick="scrollToSection('lab-experiences')">Lab Experiences</button>
+        <button class="btn btn-primary" onclick="scrollToSection('other-projects')">Other Projects</button>
     </div>
+</div>
+
+<!-- Course Projects Section -->
+<section id="course-projects" class="mb-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Course Projects</h2>
+        <div class="row">
+
+            <div class="col-md-6">
+              <div class="project mb-5 p-4 border rounded shadow-sm bg-white">
+                <h2>Project Title 1</h2>
+                <p class="text-muted">March 2024</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+      
+                <!-- Tags and Topics -->
+                <div class="tags mb-3">
+                  <span class="badge bg-primary">AI</span>
+                  <span class="badge bg-secondary">Deep Learning</span>
+                  <span class="badge bg-success">Healthcare</span>
+                </div>
+      
+                <!-- Technologies Used -->
+                <p><strong>Technologies Used:</strong></p>
+                <div class="technologies mb-3">
+                  <span class="badge bg-info">Python</span>
+                  <span class="badge bg-info">TensorFlow</span>
+                  <span class="badge bg-info">Keras</span>
+                </div>
+      
+                <!-- GitHub Link -->
+                <p><a href="https://github.com/username/project1" target="_blank" class="btn btn-outline-primary">View on GitHub</a></p>      
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="project mb-5 p-4 border rounded shadow-sm bg-white">
+                <h2>Project Title 1</h2>
+                <p class="text-muted">March 2024</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+      
+                <!-- Tags and Topics -->
+                <div class="tags mb-3">
+                  <span class="badge bg-primary">AI</span>
+                  <span class="badge bg-secondary">Deep Learning</span>
+                  <span class="badge bg-success">Healthcare</span>
+                </div>
+      
+                <!-- Technologies Used -->
+                <p><strong>Technologies Used:</strong></p>
+                <div class="technologies mb-3">
+                  <span class="badge bg-info">Python</span>
+                  <span class="badge bg-info">TensorFlow</span>
+                  <span class="badge bg-info">Keras</span>
+                </div>
+      
+                <!-- GitHub Link -->
+                <p><a href="https://github.com/username/project1" target="_blank" class="btn btn-outline-primary">View on GitHub</a></p>      
+              </div>
+            </div>
+        </div>
   </div>
 </section>
+
+<!-- Lab Experiences Section -->
+<section id="lab-experiences" class="mb-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Lab Experience Projects</h2>
+    <div class="row">
+
+        <div class="col-md-6">
+          <div class="project mb-5 p-4 border rounded shadow-sm bg-white">
+            <h2>Project Title 1</h2>
+            <p class="text-muted">March 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+  
+            <!-- Tags and Topics -->
+            <div class="tags mb-3">
+              <span class="badge bg-primary">AI</span>
+              <span class="badge bg-secondary">Deep Learning</span>
+              <span class="badge bg-success">Healthcare</span>
+            </div>
+  
+            <!-- Technologies Used -->
+            <p><strong>Technologies Used:</strong></p>
+            <div class="technologies mb-3">
+              <span class="badge bg-info">Python</span>
+              <span class="badge bg-info">TensorFlow</span>
+              <span class="badge bg-info">Keras</span>
+            </div>
+  
+            <!-- GitHub Link -->
+            <p><a href="https://github.com/username/project1" target="_blank" class="btn btn-outline-primary">View on GitHub</a></p>      
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project mb-5 p-4 border rounded shadow-sm bg-white">
+            <h2>Project Title 1</h2>
+            <p class="text-muted">March 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+  
+            <!-- Tags and Topics -->
+            <div class="tags mb-3">
+              <span class="badge bg-primary">AI</span>
+              <span class="badge bg-secondary">Deep Learning</span>
+              <span class="badge bg-success">Healthcare</span>
+            </div>
+  
+            <!-- Technologies Used -->
+            <p><strong>Technologies Used:</strong></p>
+            <div class="technologies mb-3">
+              <span class="badge bg-info">Python</span>
+              <span class="badge bg-info">TensorFlow</span>
+              <span class="badge bg-info">Keras</span>
+            </div>
+  
+            <!-- GitHub Link -->
+            <p><a href="https://github.com/username/project1" target="_blank" class="btn btn-outline-primary">View on GitHub</a></p>      
+          </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Other Projects Section -->
+<section id="other-projects" class="mb-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Other Projects</h2>
+    <div class="row">
+
+        <div class="col-md-6">
+          <div class="project mb-5 p-4 border rounded shadow-sm bg-white">
+            <h2>Project Title 1</h2>
+            <p class="text-muted">March 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+  
+            <!-- Tags and Topics -->
+            <div class="tags mb-3">
+              <span class="badge bg-primary">AI</span>
+              <span class="badge bg-secondary">Deep Learning</span>
+              <span class="badge bg-success">Healthcare</span>
+            </div>
+  
+            <!-- Technologies Used -->
+            <p><strong>Technologies Used:</strong></p>
+            <div class="technologies mb-3">
+              <span class="badge bg-info">Python</span>
+              <span class="badge bg-info">TensorFlow</span>
+              <span class="badge bg-info">Keras</span>
+            </div>
+  
+            <!-- GitHub Link -->
+            <p><a href="https://github.com/username/project1" target="_blank" class="btn btn-outline-primary">View on GitHub</a></p>      
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project mb-5 p-4 border rounded shadow-sm bg-white">
+            <h2>Project Title 1</h2>
+            <p class="text-muted">March 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+  
+            <!-- Tags and Topics -->
+            <div class="tags mb-3">
+              <span class="badge bg-primary">AI</span>
+              <span class="badge bg-secondary">Deep Learning</span>
+              <span class="badge bg-success">Healthcare</span>
+            </div>
+  
+            <!-- Technologies Used -->
+            <p><strong>Technologies Used:</strong></p>
+            <div class="technologies mb-3">
+              <span class="badge bg-info">Python</span>
+              <span class="badge bg-info">TensorFlow</span>
+              <span class="badge bg-info">Keras</span>
+            </div>
+  
+            <!-- GitHub Link -->
+            <p><a href="https://github.com/username/project1" target="_blank" class="btn btn-outline-primary">View on GitHub</a></p>      
+          </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Scroll to Top Button -->
+<button class="btn btn-primary scroll-to-top" id="scrollTopBtn" onclick="scrollToTop()">Top</button>
 
 <!-- Footer -->
 <footer class="bg-dark text-white text-center py-4">
@@ -62,5 +240,25 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Function to scroll to specific section
+    function scrollToSection(sectionId) {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Scroll-to-Top functionality
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    window.onscroll = function() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            scrollTopBtn.classList.add('show');
+        } else {
+            scrollTopBtn.classList.remove('show');
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
 </body>
 </html>
