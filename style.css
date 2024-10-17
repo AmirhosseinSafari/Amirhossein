@@ -206,3 +206,13 @@ footer a:hover {
   --bs-bg-opacity: 1;
   background-color: #057eaa !important;
 }
+
+.certificate_name {
+  color: #007bff;
+  font-style: italic;
+  font-weight: bold;
+}
+
+li strong {
+  color: rgb(158, 0, 0);
+}
