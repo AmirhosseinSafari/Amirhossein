@@ -201,3 +201,8 @@ footer a:hover {
 .badge {
   margin-top: 8px;
 }
+
+.bg_soft_blue{
+  --bs-bg-opacity: 1;
+  background-color: #057eaa !important;
+}
