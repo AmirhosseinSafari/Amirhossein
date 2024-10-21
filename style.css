@@ -302,3 +302,33 @@ li strong {
   text-align: center;
   width: 70%;
 }
+
+.good_red {
+  color: rgb(158, 0, 0);
+}
+
+.good_blue {
+  color: #007bff;
+}
+
+.paper-details {
+  width: 80%;
+}
+
+.paper-details p {
+  margin-bottom: 5px;
+}
+
+.abstract-section {
+  width: 100%;
+}
+
+.abstract_text{
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-align: justify;
+}
+
+.papers {
+  width: 85%;
+}

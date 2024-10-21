@@ -41,20 +41,168 @@
 </nav>
 
 <!-- Page Content -->
-<section class="publications bg-light text-center py-5 mt-5">
+<section class="publications bg-light py-5 mt-5">
   <div class="container">
-    <h1 class="display-4">Publications</h1>
-    <p class="lead">A list of my research papers and academic contributions.</p>
+    <h1 class="display-4 text-center">Publications</h1>
+    <p class="lead text-center">A list of my research papers and academic contributions.</p>
+    <hr>
 
     <!-- Publications Section -->
-    <ul class="list-unstyled mt-4">
-      <li><strong>Paper 1</strong>: Title of your first publication, <em>Journal Name</em>, 2024.</li>
-      <li><strong>Paper 2</strong>: Title of your second publication, <em>Journal Name</em>, 2023.</li>
-      <li><strong>Paper 3</strong>: Title of your third publication, <em>Journal Name</em>, 2022.</li>
+    <div class="container text-center papers">
+    <ul class="list-unstyled mt-4 d-inline-block text-start">
+
+      <div class="paper mb-4">
+        <li><strong>Paper 1:</strong> <strong>”Evaluation of Efficient Electrocardiomatrix-based Identification Using Deep Learning Methods”</strong></li>
+        <div class="paper-details mt-2 ms-5">
+          <p><strong>Authors:</strong> <span class="good_blue">Amirhossein Safari</span>, Narges Mokhtari, Mohsen Hooshmand, Sadegh Sadeghi, Peyman Pahlevani</p>
+          <p><strong>Conference:</strong> <a class="no_decoration" href="https://iccke.um.ac.ir/2024/Home/">The 14th International Conference on Computer and Knowledge Engineering (ICCKE), 2024</a></p>
+          <div class="abstract-section bg-light">
+            <p><strong>Abstract:</strong></p>
+            <p class="p-2 abstract_text">Nowadays, biometric systems are essential for iden-
+              tification and authentication. This study proposes deep learning
+              models for user identification using electrocardiomatrices (ECMs)
+              as input. The proposed models are evaluated from different
+              perspectives to assess their efficiency and performance for user
+              identification. One aspect involves comparing convolutional and
+              recurrent neural models. In contrast, another element consists
+              of testing the models with different numbers of ECMs and beats
+              per frame for generating the ECMs. The results are based on an
+              analysis of three different electrocardiogram databases.</p>
+          </div>
+          <p><strong>Status:</strong> <strong class="good_blue">Accepted</strong></p>
+          <p><strong>Paper Link:</strong> Coming soon! (will be published by IEEE)</p>
+          <p><strong>Implementation Link:</strong> <a href="https://github.com/AmirhosseinSafari/Minimum_EKMs" class="no_decoration">View on GitHub <i class="fab fa-github"></i></a> (Private till official publication!)</p>    
+        </div>
+      </div>  
+      
+      <div class="paper mb-4">
+        <li><strong>Paper 2:</strong> <strong>”Practical Security Analysis and Attack Strategies on Permutation Functions used in IoT Supply Chain Systems”</strong></li>
+        <div class="paper-details mt-2 ms-5">
+          <p><strong>Authors:</strong> Narges Mokhtari, <span class="good_blue">Amirhossein Safari</span>, Sadegh Sadeghi, Nasour Bagheri, Samad Rostampour, Ygal Bendavid</p>
+          <p><strong>Journal:</strong> <a class="no_decoration" href="https://link.springer.com/journal/11276">Wireless Networks: The Journal of Mobile Communication, Computation and Information, 2024</a></p>
+          <div class="abstract-section bg-light">
+            <p><strong>Abstract:</strong></p>
+            <p class="p-2 abstract_text">The widespread adoption of IoT devices has made the 
+              production of low-cost systems a priority. Since construction costs are generally 
+              directly related to the complexity of security methods, researchers are exploring
+               methods that provide acceptable security with minimal hardware complexity. 
+               One such method is the use of permutation functions in ultra-lightweight 
+               authentication protocols that employ simple operators such as XOR and Shift.
+                This paper demonstrates the critical importance of the internal structure of 
+                a permutation function in ensuring system security. This implies that even if 
+                a protocol is designed securely and efficiently, structural weaknesses in the
+                 function can render the protocol vulnerable. To illustrate this, we examine 
+                 a recently published protocol named ULBRAP for supply chain management systems
+                  and reveal its security flaws, including secret disclosure and traceability 
+                  attacks. We also demonstrate the attack step-by-step on Raspberry Pi devices,
+                   publishing the details on GitHub and presenting them in a video. The attack
+                    method requires 1,710,947 hash calculations, which takes approximately 
+                    five minutes in our experiments. Finally, we propose a solution to address
+                     the issues associated with these functions.</p>
+          </div>
+          <p><strong>Status:</strong> Under Review</p>
+          <p><strong>Paper Link:</strong> Coming soon!</p>
+          <p><strong>Implementation Link:</strong> <a href="https://github.com/nargesmokhtari/ULBRAP-Protocol" class="no_decoration">View on GitHub <i class="fab fa-github"></i></a> (Private till official publication!)</p>    
+        </div>
+      </div>
+
+      <div class="paper mb-4">
+        <li><strong>Paper 3:</strong> <strong>”An Overview of Secure Authentication Methods Using ECG Biometrics With Deep Learning
+          Algorithms”</strong></li>
+        <div class="paper-details mt-2 ms-5">
+          <p><strong>Authors:</strong> Narges Mokhtari, <span class="good_blue">Amirhossein Safari</span>, Sadegh Sadeghi</p>
+          <p><strong>Journal:</strong> <a class="no_decoration" href="https://monadi.isc.org.ir/en">Biannual Journal Monadi for Cyberspace Security (AFTA), 2023</a></p>
+          <div class="abstract-section bg-light">
+            <p><strong>Abstract:</strong></p>
+            <p class="p-2 abstract_text">Biometric systems are an important technique for user 
+              identification in today's world, which have been welcomed due to their non-invasive
+               nature and high resistance to forgery and fraud. Physiological and behavioral biomarkers
+                are two main types of biometric identifiers. Behavioral identifiers, such as voice
+                 recognition, are based on human or even animal actions. Physiological biometrics,
+                  such as fingerprints and facial recognition, which have been used in our daily 
+                  lives in the past years, are based on the physical characteristics of the human body.
+                   One of the various biometrics that have been investigated in studies in this field
+                    is the heart signal, which has been well used in authentication and identification
+                     systems due to its simple acquisition process compared to biomarkers such as the
+                      brain signal. In addition, there are valid databases on heart signal data, which
+                       the researchers of this issue refer to evaluate their systems. In this study,
+                        the analysis, analysis, and comparison of different authentication methods 
+                        using heart signal biometrics have been studied. Also, in the following, 
+                        the advantages and disadvantages of deep learning methods and models proposed
+                         in this field have been examined. In the final part, firstly, the implementation
+                          of the method presented in Fuster and Lopez's research is discussed, 
+                          and then, to evaluate, we present the tests designed using the network 
+                          created in this study, and after that, concluding based on the results.</p>
+          </div>
+          <p><strong>Status:</strong> <strong class="good_blue">Published, Rewarded The Best Paper of Year!🥳</strong></p>
+          <p><strong>Paper Link:</strong> <a class="no_decoration" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rgqLCcMAAAAJ&citation_for_view=rgqLCcMAAAAJ:u5HHmVD_uO8C">View here!</a></p>
+          <p><strong>Implementation Link:</strong> <a href="https://github.com/Monadi-Afta/An-overview-of-secure-authentication-methods-using-ECG-biometrics-with-deep-learning-algorithms" class="no_decoration">View on GitHub <i class="fab fa-github"></i></a></p>    
+        </div>
+      </div>
+
+      <h3 class="display-6 text-center mt-5">Work in Progress!</h3>
+      <hr>
+
+      <div class="paper mb-4">
+        <li><strong>Project Title:</strong> <strong>”Improving Access Control For Implantable Medical Devices Using Deep Learning
+          Approaches”</strong></li>
+        <div class="paper-details mt-2 ms-5">
+          <div class="abstract-section bg-light">
+            <p><strong>Brief Description:</strong></p>
+            <p class="p-2 abstract_text">Introducing a distance-bounding protocol using ECG signals and deep learning to authenticate
+              implantable medical device (IMD) owners and thwart replay attacks.</p>
+          </div>
+          <p><strong>Implementation Link:</strong> <a href="https://github.com/AmirhosseinSafari/Securing-IMDs-by-DL-project-" class="no_decoration">View on GitHub <i class="fab fa-github"></i></a> (Private till official publication!)</p>    
+        </div>
+      </div>
+
+      <div class="paper mb-4">
+        <li><strong>Project Title:</strong> <strong>”Revealing the vulnerabilities and unreliability of authentication systems relying on
+          Physically Unclonable Functions (PUFs) through targeted machine learning attacks.”</strong></li>
+        <div class="paper-details mt-2 ms-5">
+          <div class="abstract-section bg-light">
+            <p><strong>Brief Description:</strong></p>
+            <p class="p-2 abstract_text">Applying diverse machine learning and deep learning models to PUF datasets to identify
+              vulnerabilities in the underlying concepts.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="paper mb-4">
+        <li><strong>Project Title:</strong> <strong>”Efficient Sequence Feature Embedding for Genomic and Protein Analysis in
+          Classifying Healthy and Patient Users, and Identifying Causative Genes Using Machine Learning
+          and Deep Learning.”</strong></li>
+        <div class="paper-details mt-2 ms-5">
+          <div class="abstract-section bg-light">
+            <p><strong>Brief Description:</strong></p>
+            <p class="p-2 abstract_text">Developing sequence graph-based embeddings to capture dependencies in genomic and protein
+              sequences, aiming to classify healthy and patient users and identify causative genes using machine learning
+              and deep learning techniques.</p>
+          </div>
+          <p><strong>Implementation Link:</strong> <a href="https://github.com/AmirhosseinSafari/Gen_analysis_biomedical_project" class="no_decoration">View on GitHub <i class="fab fa-github"></i></a> (Private till official publication!)</p>    
+        </div>
+      </div>
+
+      <div class="paper mb-4">
+        <li><strong>Project Title:</strong> <strong>”Bridge failure detection at Karun’s Bridge in Iran during reconstruction using
+          sensor data and deep learning approaches.”</strong></li>
+        <div class="paper-details mt-2 ms-5">
+          <div class="abstract-section bg-light">
+            <p><strong>Brief Description:</strong></p>
+            <p class="p-2 abstract_text">Utilizing sensor data from Karun’s Bridge in Iran during pre-construction, construction, and
+              post-construction phases to train deep learning models, identifying the optimal time for detecting potential
+              bridge failures.</p>
+          </div>
+          <p><strong>Implementation Link:</strong> <a href="https://github.com/AmirhosseinSafari/brridge-failure-detection" class="no_decoration">View on GitHub <i class="fab fa-github"></i></a> (Private till official publication!)</p>    
+        </div>
+      </div>
+
     </ul>
+    </div>
 
     <!-- Achievements Section -->
-    <h2 class="mt-5">Achievements</h2>
+    <h2 class="mt-3 text-center">Achievements</h2>
+    <hr>
     <ul class="list-unstyled mt-4">
       <li><strong>DeepLearning.AI Certification</strong>: in <span class="certificate_name">"Structuring Machine Learning Projects"</span>, 2024. <a href="https://coursera.org/verify/ONEODGJ2EUXD"><i class="fa fa-link">Certificate!</i></a></li>
       <li><strong>Founder and Lead Designer</strong> of Computer Science Seminars in the CS Department, 2024.</li>
