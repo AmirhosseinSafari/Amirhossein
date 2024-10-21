@@ -216,3 +216,89 @@ footer a:hover {
 li strong {
   color: rgb(158, 0, 0);
 }
+
+/* Section header */
+.section-header {
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #007bff; /* Primary theme color */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.section-header h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  height: 4px;
+  width: 80px;
+  background-color: #007bff; /* Line below the section title */
+  border-radius: 10px;
+}
+
+.section-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  height: 2px;
+  background-color: #e9ecef; /* Subtle divider below the title */
+  z-index: -1;
+}
+
+/* Subsection header */
+.subsection-title {
+  text-align: center;
+  position: relative;
+  margin: 50px 0;
+}
+
+.subsection-title h5 {
+  display: inline-block;
+  background-color: #f8f9fa;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40;
+  position: relative;
+  z-index: 1;
+}
+
+.subsection-title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #007bff;
+  z-index: 0;
+}
+
+.subsection-title h5::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #007bff;
+  bottom: -10px;
+}
+
+.EKM {
+  text-align: center;
+  width: 70%;
+}
