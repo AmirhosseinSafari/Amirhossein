@@ -336,3 +336,7 @@ li strong {
 .w-80 {
   width: 80%;
 }
+
+.text_left p{
+  text-align: left;
+}
