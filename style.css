@@ -340,3 +340,11 @@ li strong {
 .text_left p{
   text-align: left;
 }
+
+footer a {
+  font-weight: bold;
+}
+
+footer a :hover {
+  text-decoration: underline;
+}
